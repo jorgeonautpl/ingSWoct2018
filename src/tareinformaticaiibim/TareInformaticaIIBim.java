@@ -85,6 +85,7 @@ public class TareInformaticaIIBim {
 		bfwriter.write( "Edad exacta = " + wanio + " años " + wmes + " meses "+ wdia + " dias" +"\n");
 		bfwriter.close();
 		System.out.println("Archivo modificado satisfactoriamente..");
+                JOptionPane.showMessageDialog(null,"Cambios a mostrar desde .java hacia el repositorio");
 		} catch (IOException e) {
 		} finally {
 			if (flwriter != null) {
